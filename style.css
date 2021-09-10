@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Lobster+Two&display=swap");
+body {
+  background-image: linear-gradient(
+    to right,
+    #93b5c6,
+    #c9ccd5,
+    #e4d8dc,
+    #ffe3e3
+  );
+  font-family: "Lobster Two", cursive;
+  font-size: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Alegreya", serif;
+  color: #835151;
+}
+
+.container,
+#outputBox {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+
+  height: 50%;
+}
+#date-of-birth,
+#lucky-number,
+label {
+  width: 50%;
+  height: 20%;
+  margin: 0 auto;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+#check-number {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  box-shadow: 5px 10px 8px #888888;
+  border: 0.5 solid grey;
+  font-family: "Lobster Two", cursive;
+}
+
+#outputBox {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4rem;
+  color: #835151;
+}
+::placeholder {
+  font-size: 2rem;
+  color: grey;
+}
+footer {
+  text-align: center;
+  margin-top: 50rem;
+}
+.footer-heading {
+  color: black;
+  font-size: 1.5rem;
+}
+
+i {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 35.75%;
+  }
+  body {
+    background: #9fd8b9;
+  }
+}
